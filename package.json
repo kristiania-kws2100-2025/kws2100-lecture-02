@@ -6,7 +6,8 @@
   "scripts": {
     "test": "prettier --check . && tsc --noEmit",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/kristiania-kws2100-2025/kws2100-lecture-02#readme",
   "devDependencies": {
+    "husky": "^9.1.7",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3",
     "vite": "^6.0.7"
