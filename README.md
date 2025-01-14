@@ -1,1 +1,1 @@
-# kws2100-lecture-02
+# Learn React: Thinking in React example
